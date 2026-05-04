@@ -1,66 +1,86 @@
-* {
-margin: 0;
-padding: 0;
-font-family: Arial, Helvetica, sans-serif;
+*{
+    margin:0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
-    background-color: rgb(183, 183, 241);
+    background-color: rgba(253, 178, 233, 0.966);
 }
 
 h1, h2, h3, h4, h5, h6 {
+    color:black
+}
+
+p, label{
     color: black;
-} 
-
-p, label {
-    color:midnightblue;
 }
 
-input {
-    border: nome;
+input { 
+    border: none;
     border-bottom: 1px solid #ccc;
-    padding: 10px 0;
+    padding: 10pt 0;
 }
 
-input[type="text"], input[type="number"], input[type="date"], input[type="file"], textarea {
+input [type="text"], input[type="number"], input [type="date"], input[type="file"], textarea {
 width: 400px;
-
 }
 
 textarea {
-    padding: 10px 5px;
+    padding: 10px 5 px;
 }
+
 .cabecalho {
     height: 160px;
     padding: 20px;
-    background-color: paleturquoise;
+    background-color: rgba(230, 8, 111, 0.822);
 }
 
-.cabecalho h3{
-color: aqua;
-margin-top: 0;
+.cabecalho h3 {
+    color: #ccc;
+    margin-top: 0;
 }
 
 .form-container {
     background-color: #dfdfdf;
     width: 60%;
-    margin: 0 auto;
-    position:relative;
+    margin:0 auto;
+    position: relative;
     top: -46px;
 }
 
-.form-header  {
+.form-header {
     border-bottom: 1px solid #dfdfdf;
     height: 45px;
 }
 
 .form-header p {
-    color: #2e213f;
-    border-botton: 2px solid #673ab7;
+    color:black;
+    border-bottom: 2px solid black;
     width: 100%;
     text-align: center;
     margin: 0 auto;
-    text-transform:uppercase;
-    heigth: 45px;
+    text-transform: uppercase;
+    height: 45px;
     list-style: 45px;
+}
+
+.form-body {
+    padding:30px;
+}
+
+.titulo-form {
+    margin-bottom: 15px;
+}
+
+.form-body p {
+    margin-botton: 20px;
+}
+
+.campo-obrigatorio {
+    color:crimson;
+}
+
+.caixaInputs {
+    margin-bottom: 35px;
 }
